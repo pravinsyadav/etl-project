@@ -30,3 +30,54 @@ print(result)                    # print the result fetched from the database
 
 cursor.close()                    # close the cursor 
 pg_connection.close()            # close the connection 
+
+
+
+
+
+
+
+
+
+
+
+    #           .env
+    #            │
+    #            ↓
+    #     load_dotenv()
+    #            │
+    #            ↓
+    #     os.getenv(...)
+    #            │
+    #            ↓
+    #   PostgreSQL credentials
+    #            │
+    #            ↓
+    #  psycopg2.connect(...)
+    #            │
+    #            ↓
+    #    pg_connection
+    #            │
+    #            ↓
+    #     cursor created
+    #            │
+    #            ↓
+    #    cursor.execute()
+    #            │
+    #            ↓
+    #   PostgreSQL executes SQL
+    #            │
+    #            ↓
+    #    cursor.fetchone()
+    #            │
+    #            ↓
+    #    Result comes to Python
+    #            │
+    #            ↓
+    #       print(result)
+    #            │
+    #            ↓
+    #     cursor.close()
+    #            │
+    #            ↓
+    #    connection.close()
