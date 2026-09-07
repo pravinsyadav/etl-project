@@ -17,3 +17,15 @@ conn = psycopg2.connect(                     #psycopg2.connect means connect to 
 print("Connected to PostgreSQL")
 
 conn.close()
+
+
+
+
+
+#                         PYTHON 
+#                           ||
+#                         CONNECTION
+#                           ||
+#                         POSTGRESQL
+#                           ||
+#                         CURSOR TO EXECUTE SQL
