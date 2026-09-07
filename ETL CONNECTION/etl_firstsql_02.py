@@ -24,7 +24,7 @@ cursor = pg_connection.cursor()   # cursor is the thing used to send SQL command
 
 cursor.execute("SELECT 1")       # it execute the sql and it doesn't mean python has already received the result 
 
-result = cursor.fetchone()         # fetch one record and store it into result 
+result = cursor.fetchone()         # fetch one record and store it into result .. result came to python 
 
 print(result)                    # print the result fetched from the database
 
