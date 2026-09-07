@@ -1,3 +1,5 @@
+# connect to postgr esql 
+
 import os        # os is the python built in liabrary...we are using it to read environment variable
 import psycopg2         # it is postgre driver .. it allows python to communicate with postgre sql 
 from dotenv import load_dotenv     # its come from python-dotenv liabrary

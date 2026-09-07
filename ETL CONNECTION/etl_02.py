@@ -1,3 +1,5 @@
+# connect to postgre sql and execute sql command 
+
 import os
 import psycopg2
 from dotenv import load_dotenv
