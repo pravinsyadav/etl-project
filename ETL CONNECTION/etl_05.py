@@ -39,8 +39,8 @@ print(records)
 
 
 # this is a function .. it is accepting one argument record .... (record = 'id':101, 'mrnno':ILBS.0000095') 
-#Take one patient record, try to transform it, and if transformation succeeds, return the transformed record with no error. 
-#If a known transformation error occurs, return no record and the error message instead of crashing the pipeline.
+# Take one patient record, try to transform it, and if transformation succeeds, return the transformed record with no error. 
+# If a known transformation error occurs, return no record and the error message instead of crashing the pipeline.
 def transform_patient(record):
     try:
         # we are creating a new dictionary transformed_record
