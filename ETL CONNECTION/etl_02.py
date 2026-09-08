@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# pg_host = os.getenv("PG_HOST")                # you can create like this and use it in the psycopg2.connect 
+# pg_host = os.getenv("PG_HOST")                # you can create like this and use that variable names in the psycopg2.connect 
 # pg_port = os.getenv("PG_PORT")
 # pg_database = os.getenv("PG_DATABASE")
 # pg_user = os.getenv("PG_USER")

@@ -1,3 +1,6 @@
+# fetch data from the database by running sql query 
+
+
 import os 
 import psycopg2
 from dotenv import load_dotenv

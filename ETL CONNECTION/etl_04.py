@@ -24,7 +24,7 @@ cursor.execute("""
 
 # After executing the query, the cursor knows information about the returned columns.
 # cursor.description contains metadata about those columns.
-# [description[0]] is the column name 
+# description[0] is the column name 
 column_names = [description[0] for description in cursor.description]
 
 print("Columns:", column_names)
