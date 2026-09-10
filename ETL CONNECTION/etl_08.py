@@ -63,7 +63,7 @@ while True:
     rows = cursor.fetchall()
 
 
-    # Stop when no records are left
+    # Stop when no any records are left
     if not rows:
         print("No more records.")
         break
